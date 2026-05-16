@@ -40,40 +40,9 @@ Every mode produces beautifully formatted output with score emojis (🔥 ⭐ �
 
 ## Installation
 
-<details>
-<summary>Claude Code</summary>
-
-**Project-level** (one project):
 ```bash
-cp SKILL.md .claude/commands/search-anime.md
+npx skills@latest add pavelsimo/search-anime
 ```
-
-**Global** (all projects):
-```bash
-cp SKILL.md ~/.claude/commands/search-anime.md
-```
-
-Invoke with `/search-anime`.
-
-</details>
-
-<details>
-<summary>OpenAI Codex</summary>
-
-Append `SKILL.md` contents to `AGENTS.md` (project) or `~/.codex/instructions.md` (global).
-
-Invoke: `codex "search for trending anime"`
-
-</details>
-
-<details>
-<summary>GitHub Copilot</summary>
-
-Append `SKILL.md` contents to `.github/copilot-instructions.md`.
-
-Invoke: open Copilot Chat and describe the task — "show me trending anime" or "search for dark psychological thrillers".
-
-</details>
 
 ## Contributing
 

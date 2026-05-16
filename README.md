@@ -1,6 +1,6 @@
 # search-anime skill
 
-An agentic skill that wraps the `ani` CLI. Ask for anime or manga in plain English and it runs the right command.
+Search anime and manga by natural-language query using the ani CLI and AniList.
 
 ## Usage
 

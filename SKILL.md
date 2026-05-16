@@ -1,12 +1,12 @@
 ---
 name: search-anime
-description: search anime and manga using the ani CLI
+description: Search anime and manga by natural-language query using the ani CLI and AniList.
 trigger: /search-anime
 ---
 
 # search-anime skill
 
-An agentic skill that wraps the `ani` CLI. Tell it what you want — genre, title, what's on right now — and it runs the right command.
+Search anime and manga by natural-language query using the ani CLI and AniList.
 
 ## features
 

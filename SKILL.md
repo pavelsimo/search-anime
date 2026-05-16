@@ -6,7 +6,7 @@ trigger: /search-anime
 
 # search-anime skill
 
-A Claude Code skill that wraps the `ani` CLI. Tell it what you want — genre, title, what's on right now — and it runs the right command.
+An agentic skill that wraps the `ani` CLI. Tell it what you want — genre, title, what's on right now — and it runs the right command.
 
 ## features
 

@@ -1,6 +1,6 @@
 # search-anime skill
 
-A Claude Code skill that wraps the `ani` CLI. Ask for anime or manga in plain English and it runs the right command.
+An agentic skill that wraps the `ani` CLI. Ask for anime or manga in plain English and it runs the right command.
 
 ## Usage
 

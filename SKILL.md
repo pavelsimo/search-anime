@@ -1,23 +1,23 @@
 ---
 name: search-anime
-description: natural-language anime and manga assistant powered by the ani CLI and AniList — browse trending, discover hidden gems, search by vibe, and find where to stream each title
+description: search anime and manga using the ani CLI
 trigger: /search-anime
 ---
 
 # search-anime skill
 
-A Claude Code skill that gives anime fans a natural-language interface on top of the `ani` CLI tool. Ask in plain English and get beautifully formatted results: trending digests, hidden gem hunts, season previews, smart similarity searches, and rich detail cards — including community recommendations and streaming links (Crunchyroll, HIDIVE, and more) — all backed by AniList's live GraphQL API.
+A Claude Code skill that wraps the `ani` CLI. Tell it what you want — genre, title, what's on right now — and it runs the right command.
 
 ## features
 
-- **natural language → command translation** — "what dark psychological anime finished in 2023?" becomes the right `ani search` invocation automatically
-- **trending digest** — aggregates trending anime + manga into a curated summary with scores, genre pills, airing countdowns, and a pick-of-the-week
-- **streaming links** — every `info` deep-dive surfaces clickable links to Crunchyroll, HIDIVE, and other providers; digest mode includes streaming info for the top pick
-- **community recommendations** — the `info` card shows the top 5 community-voted "if you liked this, watch that" suggestions, each with score and format
-- **hidden gems** — cross-references top-50 by score with popularity; surfaces high-score titles most fans haven't discovered yet
-- **season preview** — combines upcoming + currently popular into a "what to watch this season" guide with airing schedules
-- **smart similarity search** — "like Attack on Titan" looks up AoT's genres, then searches for similar titles with matching filters
-- **manga mode** — every mode works for manga via `--manga`; trending, gems, search, and info all work the same way
+- **natural language search** — type what you want, it figures out the `ani` command
+- **trending** — what's trending in anime or manga right now
+- **streaming links** — `info` shows Crunchyroll, HIDIVE, and other links from AniList
+- **recommendations** — what AniList users recommend next to any title
+- **hidden gems** — titles with high scores but low view counts
+- **season preview** — what's airing this season and what's coming up
+- **similarity search** — "like Attack on Titan" searches by that show's genres
+- **manga** — works for manga too, just add `--manga`
 
 ## usage
 

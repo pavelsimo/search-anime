@@ -1,6 +1,6 @@
 # search-anime skill
 
-A Claude Code skill that turns natural language into AniList queries — trending digests, hidden gem hunts, seasonal previews, similarity searches, and rich detail cards with streaming links and community recommendations.
+A Claude Code skill that wraps the `ani` CLI. Ask for anime or manga in plain English and it runs the right command.
 
 ## Usage
 

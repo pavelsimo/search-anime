@@ -1,6 +1,6 @@
 ---
 name: search-anime
-description: Search anime and manga by natural-language query using the ani CLI and AniList.
+description: Searches anime and manga by natural-language query using the ani CLI and AniList, supporting trending, popular, top, search, info, hidden gems, and binge modes. Use when the user wants to find anime or manga, explore trending titles, or get information about a specific series.
 trigger: /search-anime
 ---
 
